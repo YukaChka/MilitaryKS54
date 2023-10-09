@@ -1,13 +1,12 @@
-﻿<Window x:Class="MilitaryKS54.MainWindow"
+﻿<Window x:Class="MilitaryKS54.Frames.Registration"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:MilitaryKS54"
+        xmlns:local="clr-namespace:MilitaryKS54.Frames"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1024" Width="1440">
+        Title="Registration" Height="1024" Width="1440">
     <Grid>
-        <Frame x:Name="frame" Content="Frame" Source="/Frames/Login.xaml"/>
-
+        
     </Grid>
 </Window>
